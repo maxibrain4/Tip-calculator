@@ -1,0 +1,169 @@
+/* font-family: 'Space Mono', monospace; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(185, 41%, 84%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+img {
+  width: 100%;
+}
+.card {
+  width: 100%;
+  max-width: 700px;
+  font-family: "Space Mono", monospace;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+}
+.card1 {
+  flex: 50%;
+  /* border: 1px solid green; */
+  padding: 30px;
+}
+.card2 {
+  /* border: 1px solid yellow; */
+  flex: 50%;
+  padding: 20px;
+}
+.btn-div {
+  display: grid;
+  grid-template-columns: 89px 89px 89px;
+  grid-template-rows: 1fr 1fr;
+  gap: 13px;
+}
+
+.btn {
+  font-family: "Space Mono", monospace;
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border: none;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+#btninput {
+  width: 100%;
+  font-size: 20px;
+  font-family: "Space Mono", monospace;
+  cursor: pointer;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+}
+/* .inputdiff {
+  width: 100%;
+} */
+
+.title {
+  font-size: 14px;
+  color: hsl(183, 100%, 15%);
+}
+.inp {
+  width: 100%;
+  padding: 10px 10px;
+  font-family: "Space Mono", monospace;
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: 1px solid hsl(172, 67%, 45%);
+}
+.binput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.inside-div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: hsl(183, 100%, 15%);
+}
+
+.tabody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+  margin-bottom: 30px;
+}
+.totalbody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 50px; */
+}
+.last-btn {
+  width: 100%;
+  padding: 10px 10px;
+  border: none;
+  text-decoration: none;
+  background-color: hsl(172, 67%, 45%);
+  font-family: "Space Mono", monospace;
+  color: hsl(183, 100%, 15%);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.last-btn:hover {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(183, 100%, 15%);
+}
+span {
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+}
+
+.ttext {
+  /* line-height: 1; */
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+}
+
+.digits {
+  font-size: 30px;
+  font-weight: 700;
+  color: hsl(172, 67%, 45%);
+}
+.firstinput {
+  margin-bottom: 20px;
+}
+.btn-container {
+  margin-bottom: 20px;
+}
+.bill-input {
+  background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+  background-color: hsl(189, 41%, 97%);
+}
+.Number-input {
+  background: url(images/icon-person.svg) no-repeat scroll 7px 7px;
+  background-color: hsl(189, 41%, 97%);
+}

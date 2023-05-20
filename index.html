@@ -4,7 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script defer src="index.js"></script>
     <title>Tip calculator</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <!-- <div class="beforeCard"> -->
+      <div class="logo"><img src="/images/logo.svg" alt="" /></div>
+      <div class="card">
+        <div class="card1">
+          <div class="input-div firstinput">
+            <p class="title">Bills</p>
+            <input type="text" name="" id="" class="inp bill-input" dir="rtl" />
+          </div>
+          <div class="btn-container">
+            <p class="title">Select Tip %</p>
+            <div class="btn-div">
+              <button class="btn">5%</button>
+              <button class="btn">10%</button>
+              <button class="btn">15%</button>
+              <button class="btn">25%</button>
+              <button class="btn">50%</button>
+              <input
+                type="text"
+                name=""
+                id="btninput"
+                placeholder="Custom"
+                dir="rtl"
+              />
+            </div>
+          </div>
+          <div class="input-div">
+            <!-- <label for="">Number of People</label> -->
+            <div class="binput">
+              <p class="title">Number of People</p>
+              <p class="error">can't be zero</p>
+            </div>
+
+            <input
+              type="text"
+              name=""
+              id=""
+              class="inp Number-input"
+              dir="rtl"
+            />
+          </div>
+        </div>
+        <div class="card2">
+          <div class="inside-div">
+            <div class="fisttext">
+              <div class="tabody">
+                <p class="tip-text ttext">
+                  Tip Amount <br />
+                  <span>/ person</span>
+                </p>
+                <p class="tipdigit digits">$0.00</p>
+              </div>
+              <div class="totalbody">
+                <p class="total-text ttext">
+                  Total <br />
+                  <span>/ person</span>
+                </p>
+                <p class="totaldigit digits">$0.00</p>
+              </div>
+            </div>
+            <div class="btn-div-div">
+              <button class="last-btn">RESET</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+  </body>
 </html>

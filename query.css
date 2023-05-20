@@ -1,0 +1,21 @@
+@media (max-width: 663px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+    font-family: "Space Mono", monospace;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 13px;
+  }
+  .logo {
+    margin-top: 50px;
+  }
+}
