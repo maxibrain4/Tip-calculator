@@ -70,6 +70,7 @@ img {
   border: none;
   background-color: hsl(189, 41%, 97%);
   border-radius: 5px;
+  color: hsl(183, 100%, 15%);
 }
 /* .inputdiff {
   width: 100%;
@@ -88,6 +89,7 @@ img {
   border: none;
   font-size: 20px;
   border-radius: 5px;
+  color: hsl(183, 100%, 15%);
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
