@@ -21,7 +21,7 @@ img {
 .card {
   width: 100%;
   max-width: 700px;
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   /* border: 1px solid red; */
   border-radius: 10px;
   background-color: hsl(0, 0%, 100%);
@@ -45,7 +45,7 @@ img {
 }
 
 .btn {
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   padding: 10px 20px;
   width: 100%;
   display: flex;
@@ -65,7 +65,7 @@ img {
 #btninput {
   width: 100%;
   font-size: 20px;
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   cursor: pointer;
   border: none;
   background-color: hsl(189, 41%, 97%);
@@ -82,12 +82,17 @@ img {
 .inp {
   width: 100%;
   padding: 10px 10px;
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   display: flex;
   align-items: center;
   border: none;
   font-size: 20px;
   border-radius: 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 input:focus {
@@ -128,7 +133,7 @@ input:focus {
   border: none;
   text-decoration: none;
   background-color: hsl(172, 67%, 45%);
-  font-family: "Space Mono", monospace;
+  font-family: 'Space Mono', monospace;
   color: hsl(183, 100%, 15%);
   cursor: pointer;
   border-radius: 5px;
@@ -160,10 +165,17 @@ span {
   margin-bottom: 20px;
 }
 .bill-input {
-  background: url(images/icon-dollar.svg) no-repeat scroll 7px 7px;
+  background: url(images/icon-dollar.svg) no-repeat 10px;
   background-color: hsl(189, 41%, 97%);
 }
 .Number-input {
-  background: url(images/icon-person.svg) no-repeat scroll 7px 7px;
+  background: url(images/icon-person.svg) no-repeat 10px;
   background-color: hsl(189, 41%, 97%);
+}
+.error {
+  color: red;
+}
+
+.addcolor {
+  background-color: hsl(172, 67%, 45%);
 }
